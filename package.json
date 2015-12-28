@@ -13,7 +13,9 @@
   "keywords": [
     "react-native",
     "react-component",
-    "feature-detection"
+    "feature-detection",
+    "passcode-status",
+    "ios"
   ],
   "author": "Mark Vayngrib <mark.vayngrib@lablz.com> (http://github.com/mvayngrib)",
   "license": "MIT",
