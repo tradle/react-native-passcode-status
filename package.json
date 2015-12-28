@@ -1,0 +1,24 @@
+{
+  "name": "react-native-passcode-status",
+  "version": "1.0.0",
+  "description": "check passcode status on device",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tradle/react-native-passcode-status"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "feature-detection"
+  ],
+  "author": "Mark Vayngrib <mark.vayngrib@lablz.com> (http://github.com/mvayngrib)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tradle/react-native-passcode-status/issues"
+  },
+  "homepage": "https://github.com/tradle/react-native-passcode-status"
+}

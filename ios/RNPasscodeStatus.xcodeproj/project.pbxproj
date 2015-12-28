@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		732D5BB81C30EA5700CA0A32 /* RNPasscodeStatus.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 732D5BB71C30EA5700CA0A32 /* RNPasscodeStatus.h */; };
+		732D5BBA1C30EA5700CA0A32 /* RNPasscodeStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 732D5BB91C30EA5700CA0A32 /* RNPasscodeStatus.m */; };
+		732D5BC21C30EB4600CA0A32 /* UIDevice+PasscodeStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 732D5BC11C30EB4600CA0A32 /* UIDevice+PasscodeStatus.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		732D5BB21C30EA5700CA0A32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				732D5BB81C30EA5700CA0A32 /* RNPasscodeStatus.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		732D5BB41C30EA5700CA0A32 /* libRNPasscodeStatus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNPasscodeStatus.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		732D5BB71C30EA5700CA0A32 /* RNPasscodeStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNPasscodeStatus.h; sourceTree = "<group>"; };
+		732D5BB91C30EA5700CA0A32 /* RNPasscodeStatus.m */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = RNPasscodeStatus.m; sourceTree = "<group>"; tabWidth = 2; };
+		732D5BC01C30EB4600CA0A32 /* UIDevice+PasscodeStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+PasscodeStatus.h"; sourceTree = "<group>"; };
+		732D5BC11C30EB4600CA0A32 /* UIDevice+PasscodeStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+PasscodeStatus.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		732D5BB11C30EA5700CA0A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		732D5BAB1C30EA5700CA0A32 = {
+			isa = PBXGroup;
+			children = (
+				732D5BC01C30EB4600CA0A32 /* UIDevice+PasscodeStatus.h */,
+				732D5BC11C30EB4600CA0A32 /* UIDevice+PasscodeStatus.m */,
+				732D5BB71C30EA5700CA0A32 /* RNPasscodeStatus.h */,
+				732D5BB91C30EA5700CA0A32 /* RNPasscodeStatus.m */,
+				732D5BB61C30EA5700CA0A32 /* RNPasscodeStatus */,
+				732D5BB51C30EA5700CA0A32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		732D5BB51C30EA5700CA0A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				732D5BB41C30EA5700CA0A32 /* libRNPasscodeStatus.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		732D5BB61C30EA5700CA0A32 /* RNPasscodeStatus */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RNPasscodeStatus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		732D5BB31C30EA5700CA0A32 /* RNPasscodeStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732D5BBD1C30EA5700CA0A32 /* Build configuration list for PBXNativeTarget "RNPasscodeStatus" */;
+			buildPhases = (
+				732D5BB01C30EA5700CA0A32 /* Sources */,
+				732D5BB11C30EA5700CA0A32 /* Frameworks */,
+				732D5BB21C30EA5700CA0A32 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNPasscodeStatus;
+			productName = RNPasscodeStatus;
+			productReference = 732D5BB41C30EA5700CA0A32 /* libRNPasscodeStatus.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		732D5BAC1C30EA5700CA0A32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Tradle, Inc.";
+				TargetAttributes = {
+					732D5BB31C30EA5700CA0A32 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 732D5BAF1C30EA5700CA0A32 /* Build configuration list for PBXProject "RNPasscodeStatus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 732D5BAB1C30EA5700CA0A32;
+			productRefGroup = 732D5BB51C30EA5700CA0A32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				732D5BB31C30EA5700CA0A32 /* RNPasscodeStatus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		732D5BB01C30EA5700CA0A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732D5BBA1C30EA5700CA0A32 /* RNPasscodeStatus.m in Sources */,
+				732D5BC21C30EB4600CA0A32 /* UIDevice+PasscodeStatus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		732D5BBB1C30EA5700CA0A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		732D5BBC1C30EA5700CA0A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		732D5BBE1C30EA5700CA0A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		732D5BBF1C30EA5700CA0A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		732D5BAF1C30EA5700CA0A32 /* Build configuration list for PBXProject "RNPasscodeStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732D5BBB1C30EA5700CA0A32 /* Debug */,
+				732D5BBC1C30EA5700CA0A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732D5BBD1C30EA5700CA0A32 /* Build configuration list for PBXNativeTarget "RNPasscodeStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732D5BBE1C30EA5700CA0A32 /* Debug */,
+				732D5BBF1C30EA5700CA0A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 732D5BAC1C30EA5700CA0A32 /* Project object */;
+}
