@@ -2,6 +2,10 @@
 
 thin wrapper around [UIDevice-PasscodeStatus](https://github.com/liamnichols/UIDevice-PasscodeStatus)
 
+## Installation
+
+See [Linking Libraries](http://facebook.github.io/react-native/docs/linking-libraries-ios.html)
+
 ## Usage
 
 ```js
