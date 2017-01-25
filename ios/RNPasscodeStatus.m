@@ -13,41 +13,45 @@
 
 RCT_EXPORT_MODULE()
 
-//RCT_EXPORT_METHOD(passcodeStatus:(RCTResponseSenderBlock)callback)
-//{
-//  UIDevice *device = [UIDevice currentDevice];
-//  if (!device.passcodeStatusSupported) {
-//    NSError *error = [NSError errorWithDomain:NSOSStatusErrorDomain code:errSecUnimplemented userInfo:@{ @"description": @"passcode status not supported" }];
-//    NSDictionary* errDict = RCTMakeAndLogError([error description], nil, [error dictionaryWithValuesForKeys:@[@"domain", @"code"]]);
-//    callback(@[errDict]);
-//  } else {
-//    callback(@[[NSNull null], device.passcodeStatus]);
-//  }
-//}
+RCT_EXPORT_METHOD(get:(RCTResponseSenderBlock)callback)
+{
+  UIDevice *device = [UIDevice currentDevice];
+  if (!device.passcodeStatusSupported) {
+    callback(@[@"passcode status not supported"]);
+  } else {
+    NSString* status = [RNPasscodeStatus getPasscodeStatusString:device.passcodeStatus];
+    callback(@[[NSNull null], status]);
+  }
+}
 
 - (NSDictionary *)constantsToExport
 {
   UIDevice *device = [UIDevice currentDevice];
   BOOL supported = device.passcodeStatusSupported;
-  NSString* status = nil;
+  NSMutableDictionary* constants = [[NSMutableDictionary alloc] initWithDictionary:@{
+    @"supported": @(supported)
+  }];
+
   if (supported) {
-    switch (device.passcodeStatus) {
-      case LNPasscodeStatusDisabled:
-        status = @"disabled";
-        break;
-      case LNPasscodeStatusEnabled:
-        status = @"enabled";
-        break;
-      case LNPasscodeStatusUnknown:
-        status = @"unknown";
-        break;
-    }
+    NSString* status = [RNPasscodeStatus getPasscodeStatusString:device.passcodeStatus];
+    [constants setObject:status forKey:@"status"];
   }
-  
-  return @{
-           @"supported": @(supported),
-           @"status": status
-           };
+
+  return [NSDictionary dictionaryWithDictionary:constants];
+}
+
++ (NSString *) getPasscodeStatusString:(LNPasscodeStatus) status
+{
+  switch (status) {
+    case LNPasscodeStatusDisabled:
+      return @"disabled";
+    case LNPasscodeStatusEnabled:
+      return @"enabled";
+    case LNPasscodeStatusUnknown:
+      return @"unknown";
+    default:
+      return nil;
+  }
 }
 
 @end
