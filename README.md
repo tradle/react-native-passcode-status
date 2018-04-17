@@ -1,5 +1,7 @@
 # react-native-passcode-status
 
+check if device-level passcode is supported/enabled/disabled
+
 thin wrapper around [UIDevice-PasscodeStatus](https://github.com/liamnichols/UIDevice-PasscodeStatus)
 
 ## Installation
