@@ -40,6 +40,11 @@ RCT_EXPORT_METHOD(get:(RCTResponseSenderBlock)callback)
   return [NSDictionary dictionaryWithDictionary:constants];
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+    return YES;
+}
+
 + (NSString *) getPasscodeStatusString:(LNPasscodeStatus) status
 {
   switch (status) {
