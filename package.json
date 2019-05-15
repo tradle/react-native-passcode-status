@@ -1,6 +1,6 @@
 {
   "name": "react-native-passcode-status",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "check if device-level passcode is supported/enabled/disabled",
   "main": "index.js",
   "scripts": {
